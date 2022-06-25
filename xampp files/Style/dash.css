@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #000000;
+	background-size: cover;
+	background-position: center;
+
+}
+
+th, td {
+    font-size: 21px;
+    font-family: sans-serif;
+      padding: 5px;
+  text-align: left;
+  background-color:#7FFF00;
+  }
+
+  table{
+  	margin: auto;
+  	background-color:#0000;
+  }
+
+  h2{
+  	line-height: 30px;
+  
+  	background-color:#7FFF00;
+  	text-align: center;
+  }
+  h1{
+  	background-size: auto;
+  	  	background-color:#7FFF00;
+  	text-align: center;
+  }

@@ -1,0 +1,105 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(Images/basic.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #33cc33;
+}
+.banner{
+border-radius: 25px;
+ background: #33cc33;
+ margin: auto;
+ padding: 20px;
+ width: 500px;
+ height: 150px;
+
+}
+
+.banner h1{
+	color: #000000;
+	font-size: 100px;
+	text-align: center;
+	margin: auto;
+}
+
+
+.box{
+  border-radius: 25px;
+  background: #33cc33;
+  margin:100px auto;
+  padding: 20px;
+  width: 70%;
+  height: 100%;
+  
+  color: #000000;
+	font-size: 60px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+
+.container:hover input ~ .checkmark {
+  background-color:#ffe6e6;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #000000;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.box input[type="text"],input[type="answer"]{
+   border:none;
+   border-bottom: 2px solid #000000;
+   background: transparent;
+   outline: none;
+   height: 18px;
+   color: #000000;
+   font-size: 40px;
+   font-weight: bold;
+}
